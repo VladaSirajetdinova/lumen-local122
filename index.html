@@ -4,18 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumen. — Светильники</title>
-    <!-- Подключение шрифтов (если у тебя есть папка fonts, раскомментируй строку ниже) -->
-    <!-- <link rel="stylesheet" href="fonts/stylesheet.css"> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Шапка сайта -->
     <header class="header">
         <div class="container header__container">
             <a href="#" class="header__title" style="text-decoration: none;">Lumen.</a>
             
-            <!-- Десктопное меню -->
             <nav class="header__mainmenu">
                 <ul>
                     <li><a class="mainmenu__link" href="#about">О нас</a></li>
@@ -24,7 +22,6 @@
                 </ul>
             </nav>
 
-            <!-- Мобильное меню (появляется при клике на бургер) -->
             <nav class="header__mobilemenu" id="mobileMenu">
                 <button class="btn-close" aria-label="Закрыть меню">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +35,6 @@
                 </ul>
             </nav>
 
-            <!-- Кнопка бургер для мобилок -->
             <button class="btn-burger" aria-label="Открыть меню">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -47,21 +43,17 @@
         </div>
     </header>
 
-    <!-- Основной контент -->
     <main>
-        <!-- Секция Баннер -->
         <section class="section banner" id="banner">
             <div class="container banner__container">
                 <div class="banner__content">
                     <h1 class="banner__title">Lumen<br>Shape</h1>
                     <button class="banner__btn">связаться</button>
                 </div>
-                <!-- Замени путь на свою картинку лампы -->
                 <img class="banner__img" src="img/banner.png" alt="Красная лампа">
             </div>
         </section>
 
-        <!-- Секция О нас -->
         <section class="section about" id="about">
             <div class="container">
                 <h2 class="about__title">О нас</h2>
@@ -83,16 +75,13 @@
             </div>
         </section>
 
-        <!-- Секция Каталог -->
         <section class="section catalog" id="catalog">
             <div class="container">
                 <h2 class="catalog__title">Каталог</h2>
                 
-                <!-- Обертка для слайдера (чтобы прятать вылезающие карточки) -->
                 <div class="catalog__wrapper">
                     <div class="catalog__container">
                         
-                        <!-- Карточка 1 -->
                         <div class="catalog__card">
                             <button class="card__btn-add">+</button>
                             <img class="card__img" src="img/1.png" alt="Лампа">
@@ -101,7 +90,6 @@
                             <button class="card__btn">связаться</button>
                         </div>
 
-                        <!-- Карточка 2 -->
                         <div class="catalog__card">
                             <button class="card__btn-add">+</button>
                             <img class="card__img" src="img/2.png" alt="Лампа">
@@ -110,7 +98,6 @@
                             <button class="card__btn">связаться</button>
                         </div>
 
-                        <!-- Карточка 3 -->
                         <div class="catalog__card">
                             <button class="card__btn-add">+</button>
                             <img class="card__img" src="img/3.png" alt="Лампа">
@@ -119,7 +106,6 @@
                             <button class="card__btn">связаться</button>
                         </div>
 
-                        <!-- Карточка 4 -->
                         <div class="catalog__card">
                             <button class="card__btn-add">+</button>
                             <img class="card__img" src="img/4.png" alt="Лампа">
@@ -131,7 +117,6 @@
                     </div>
                 </div>
 
-                <!-- Кнопки управления слайдером -->
                 <div class="catalog__button">
                     <button class="catalog__btn" aria-label="Назад">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 auto;">
@@ -147,7 +132,6 @@
             </div>
         </section>
 
-        <!-- Секция Обратная связь -->
         <section class="section feedback" id="feedback">
             <div class="container">
                 <div class="feedback__intro">
@@ -194,9 +178,7 @@
         </section>
     </main>
 
-    <!-- Подвал сайта -->
     <footer class="footer">
-        <!-- Секция Контакты -->
         <section class="section contacts">
             <div class="container">
                 <a href="#" class="footer__title" style="text-decoration: none; display: block;">Lumen.</a>
@@ -216,7 +198,6 @@
             </div>
         </section>
 
-        <!-- Секция Копирайт -->
         <section class="section copyright" style="margin: 0;">
             <div class="container">
                 <p class="copyright__text">© 2024 Lumen. Все права защищены.</p>
